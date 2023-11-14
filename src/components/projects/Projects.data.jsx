@@ -36,9 +36,28 @@ export const CardProjects = [{
     description:'Primera app realizada para aprender como funcionan las APIs',
     imageUrl:'https://res.cloudinary.com/dphsynf6f/image/upload/v1680556410/portfolio/pokedex/lhxdghfwa8qpitmcmcou.png',
     skills:[
+      
         {
-            icon: <SiGithub size={40} color="white"/>
+            icon: <SiHtml5 size={40} color="white"/>
         },
+        {
+            icon: <SiCss3 size={40} color="white"/>
+        },
+        {
+            icon: <SiJavascript size={40} color="white"/>
+        },
+     
+        
+    ],
+    link:'https://pokedexuli.000webhostapp.com/'
+},
+{
+    id:2,
+    title:'Drag and drop',
+    description:'Aplicación para practicar la carga de imágenes',
+    imageUrl:'https://res.cloudinary.com/dphsynf6f/image/upload/v1691765190/portfolio/imgDragAndDrop/index.png',
+    skills:[
+      
         {
             icon: <SiHtml5 size={40} color="white"/>
         },
@@ -49,10 +68,10 @@ export const CardProjects = [{
             icon: <SiJavascript size={40} color="white"/>
         },
         {
-            icon: <FiExternalLink size={40} color="white"/>
-        }
+            icon: <SiExpress  size={40} color="white"/>
+        },
         
     ],
-    link:'https://pokedexuli.000webhostapp.com/'
-}
+    link:'https://draganddropau.onrender.com/'
+},
 ]
