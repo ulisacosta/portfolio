@@ -5,7 +5,7 @@ import { FiExternalLink } from "react-icons/fi";
 export const CardProjects = [{
     id:0,
     title:'Empresa de seguros',
-    description:'Gestión de clientes, pólizas, pagos y siniestros',
+    description:'Gestión de clientes, pólizas, pagos y siniestros ',
     imageUrl:'https://res.cloudinary.com/dphsynf6f/image/upload/v1691699825/portfolio/titronic/logintitronic.png',
     skills:[
      

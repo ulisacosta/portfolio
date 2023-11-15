@@ -3,10 +3,18 @@ import {CardProjects} from './Projects.data'
 
 export default function Projects() {
   return (
-    <section className='h-full  flex flex-col gap-4 xl:grid xl:grid-cols-3  xl:gap-4'>
+    <div className=' xl:max-h-screen'>
+
+  <div className='flex justify-center items-center flex-col gap-5 '>
+
+    <div className=''>
+    <h1 className='text-white fontProject'>TRABAJOS</h1>
+    </div>
+
+    <section className='h-86 flex flex-col gap-4 xl:grid xl:grid-cols-3 xl:place-items-center xl:gap-4 '>
     {CardProjects.map(({id,title,imageUrl,description,skills,link})=>(
 
-     <div className="w-80 border-2 rounded-2xl">
+     <div className="w-80 border-2 rounded-2xl bg-slate-700">
         <a href={link} target='__blank'>
   
       <div className="">
@@ -15,7 +23,7 @@ export default function Projects() {
           
       <div className=" flex flex-col justify-center">
         <div className="flex justify-center items-center border-y-2 ">
-          <p className="text-center font-sans text-white text-lg">
+          <p className="text-center font-sans text-white text-lg py-1">
             {title}
           </p>
         </div>
@@ -37,5 +45,9 @@ export default function Projects() {
     </div>
             ))}
     </section>
+  </div>
+
+
+    </div>
   );
 }
