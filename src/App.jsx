@@ -1,19 +1,20 @@
 import { useState } from "react";
-
+import {BrowserRouter,Route,Routes} from "react-router-dom";
 import "./App.css";
 import Projects from "./components/projects/Projects";
 import Navbar from "./components/navbar/Navbar";
 
 function App() {
   return (
-    <>
-        <div className="flex justify-center items-center">
-        <Navbar />
-        </div>
+  <>
+    <BrowserRouter>
+<Routes>
+          <Route exact path="/projects" component={Navbar} />
+       
+    </Routes>
+    </BrowserRouter>
 
-        <Projects></Projects>
-
-    </>
+  </>
   );
 }
 
