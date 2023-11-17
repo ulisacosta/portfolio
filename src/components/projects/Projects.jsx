@@ -1,14 +1,16 @@
 
 import {CardProjects} from './Projects.data'
-import Navbar from '../navbar/Navbar';
+import Navbar from '../navbar/Navbar'
 
 export default function Projects() {
   return (
     
     <div className=' xl:max-h-screen'>
- <div className="flex justify-center items-center">
-        <Navbar />
-        </div>
+
+<div className="flex justify-center items-center">
+    <Navbar />
+    </div>
+      
   <div className='flex justify-center items-center flex-col gap-5 '>
 
     <div className=''>

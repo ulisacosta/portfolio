@@ -22,6 +22,12 @@
 .fontProject{
   font-family: 'Agbalumo';
 }
+
+.currentIconPage svg{
+  stroke: #ea580c;
+  fill: #ea580c;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
