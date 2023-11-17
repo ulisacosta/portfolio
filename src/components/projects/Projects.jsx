@@ -17,7 +17,7 @@ export default function Projects() {
     <h1 className='text-white fontProject'>Mis <span className="text-blue-600">proyectos</span></h1>
     </div>
 
-    <section className='h-86 flex flex-col gap-4 xl:grid xl:grid-cols-3 xl:place-items-center xl:gap-4 '>
+    <section className='h-86 mb-4  flex flex-col gap-4 xl:grid xl:grid-cols-3 xl:place-items-center xl:gap-4 '>
     {CardProjects.map(({id,title,imageUrl,description,skills,link})=>(
 
      <div className="w-80 border-2 rounded-2xl bg-slate-700">

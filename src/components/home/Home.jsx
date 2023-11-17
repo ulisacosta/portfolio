@@ -8,9 +8,9 @@ export default function Home() {
       <div className="flex justify-center items-center">
         <Navbar />
       </div>
-    
-      <div className="flex justify-center">
-        <h1 className="md:w-9/12  text-3xl xl:text-4xl  text-white fontProject">
+      <div className='flex flex-col gap-5 '>
+      <div className='flex justify-center items-center flex-col gap-5 mb-4'>
+        <h1 className=" md:w-9/12  text-4xl  text-white fontProject">
           Transformando ideas en <span className="text-blue-600">soluciones digitales</span>
         </h1>
       </div>
@@ -34,6 +34,7 @@ export default function Home() {
   <Link to="/contact" className="px-6 py-3 transition-all border-2 cursor-pointer  text-white rounded-xl hover:shadow-xl hover:shadow-blue-400">Contacta conmigo</Link>
 </div>
 
+    </div>
     </div>
   );
 }
