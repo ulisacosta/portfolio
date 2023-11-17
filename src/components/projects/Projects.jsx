@@ -14,7 +14,7 @@ export default function Projects() {
   <div className='flex justify-center items-center flex-col gap-5 '>
 
     <div className=''>
-    <h1 className='text-white fontProject'>TRABAJOS</h1>
+    <h1 className='text-white fontProject'>Mis <span className="text-blue-600">proyectos</span></h1>
     </div>
 
     <section className='h-86 flex flex-col gap-4 xl:grid xl:grid-cols-3 xl:place-items-center xl:gap-4 '>
