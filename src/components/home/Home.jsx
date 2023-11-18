@@ -1,12 +1,12 @@
 import React from "react";
-import Navbar from "/src/components/navbar/Navbar";
+
 import { Link } from "react-router-dom";
 
-export default function Home() {
+export default function Home({nav}) {
   return (
     <div className="xl:max-h-screen ">
       <div className="flex justify-center items-center">
-        <Navbar />
+        {nav} 
       </div>
       <div className='flex flex-col gap-5 '>
       <div className='flex justify-center items-center flex-col gap-5 mb-4'>

@@ -1,12 +1,12 @@
 import React from "react";
-import Navbar from "/src/components/navbar/Navbar";
+
 import { AboutSkills } from "./About.data";
 
-export default function About() {
+export default function About({nav}) {
   return (
     <div className=" xl:max-h-screen">
       <div className="flex justify-center items-center">
-        <Navbar />
+        {nav}
       </div>
       <div className='flex justify-center items-center flex-col gap-5 mb-4'>
       <div className="">
