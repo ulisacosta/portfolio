@@ -1,11 +1,14 @@
 
 import {CardProjects} from './Projects.data'
 import Navbar from '../navbar/Navbar'
+import { motion } from "framer-motion"
+
 
 export default function Projects() {
   return (
     
     <div className=' xl:max-h-screen'>
+
 
 <div className="flex justify-center items-center">
     <Navbar />
@@ -19,12 +22,20 @@ export default function Projects() {
 
     <section className='h-86 mb-4  flex flex-col gap-4 xl:grid xl:grid-cols-3 xl:place-items-center xl:gap-4 '>
     {CardProjects.map(({id,title,imageUrl,description,skills,link})=>(
-
+      <motion.a 
+  whileHover={{ scale: 1.2 ,transition: { duration: 0.6 }}}
+  onHoverStart={e => {}}
+  onHoverEnd={e => {transition:{duration:5}} } >
+  
      <div className="w-80 border-2 rounded-2xl bg-slate-700">
+
         <a href={link} target='__blank'>
+
   
       <div className="">
+    
         <img src={imageUrl} className='rounded-t-xl h-40 '></img>
+       
       </div>
           
       <div className=" flex flex-col justify-center">
@@ -49,6 +60,7 @@ export default function Projects() {
   
   </a>
     </div>
+  </motion.a>
             ))}
     </section>
   </div>
