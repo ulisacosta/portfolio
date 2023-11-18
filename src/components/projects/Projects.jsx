@@ -24,9 +24,11 @@ export default function Projects() {
     {CardProjects.map(({id,title,imageUrl,description,skills,link})=>(
       <motion.a 
   whileHover={{ scale: 1.2 ,transition: { duration: 0.6 }}}
+  initial={{ opacity: 0 }}
+  whileInView={{ opacity: 1,transition:{duration:1}}}
   onHoverStart={e => {}}
-  onHoverEnd={e => {transition:{duration:5}} } >
-  
+  onHoverEnd={e => {}} >
+
      <div className="w-80 border-2 rounded-2xl bg-slate-700">
 
         <a href={link} target='__blank'>

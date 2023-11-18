@@ -31,7 +31,7 @@ export default function Home() {
 <div className="flex flex-col justify-center items-center gap-4 mt-3 xl:flex xl:flex-row xl:gap-4">
  
   <Link to="/projects" className="px-6 py-3  transition-all border-2 cursor-pointer text-white w-fit rounded-xl hover:shadow-xl hover:shadow-blue-400">Ver proyectos</Link>
-  <Link to="/contact" className="px-6 py-3 transition-all border-2 cursor-pointer  text-white rounded-xl hover:shadow-xl hover:shadow-blue-400">Contacta conmigo</Link>
+  <a href="https://www.linkedin.com/in/adolfo-ulises-martin-acosta/" target="__blank" className="px-6 py-3 transition-all border-2 cursor-pointer  text-white rounded-xl hover:shadow-xl hover:shadow-blue-400">Contacta conmigo</a>
 </div>
 
     </div>
