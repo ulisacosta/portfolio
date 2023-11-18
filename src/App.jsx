@@ -13,9 +13,9 @@ function App() {
 
       <BrowserRouter>
         <Routes>
-          <Route exact path="/" element={<Home nav=<Navbar/> />} />
-          <Route exact path="/about" element={<About nav=<Navbar/> />} />
-          <Route exact path="/projects" element={<Projects nav=<Navbar/>  />} />
+          <Route exact path="/" element={<Home nav={<Navbar/>} />} />
+          <Route exact path="/about" element={<About nav={<Navbar/>} />} />
+          <Route exact path="/projects" element={<Projects nav={<Navbar/>}  />} />
         </Routes>
       </BrowserRouter>
     </>
