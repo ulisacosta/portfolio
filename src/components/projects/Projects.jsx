@@ -1,17 +1,17 @@
 
 import {CardProjects} from './Projects.data'
-
+import Navbar from "../navbar/Navbar.jsx";
 import { motion } from "framer-motion"
 
 
-export default function Projects({nav}) {
+export default function Projects() {
   return (
     
     <div className=' xl:max-h-screen'>
 
 
 <div className="flex justify-center items-center">
-    {nav}
+<Navbar/>
     </div>
       
   <div className='flex justify-center items-center flex-col gap-5 '>
