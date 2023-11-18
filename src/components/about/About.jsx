@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../navbar/Navbar";
+import Navbar from "/src/components/navbar/Navbar";
 import { AboutSkills } from "./About.data";
 
 export default function About() {

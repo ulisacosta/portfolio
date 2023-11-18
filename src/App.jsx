@@ -10,6 +10,7 @@ import About from "./components/about/About"
 function App() {
   return (
     <>
+
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Home />} />
