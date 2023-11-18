@@ -1,6 +1,6 @@
 
 import {CardProjects} from './Projects.data'
-import Navbar from "../navbar/Navbar";
+import Navbar from "/src/components/navbar/Navbar.jsx";
 import { motion } from "framer-motion"
 
 
