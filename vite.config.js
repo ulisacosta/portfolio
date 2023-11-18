@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     rollupOptions: {
-      external: ["../navbar/Navbar.jsx"],
+      external: ["../navbar/Navbar"],
     },
   },
 })
