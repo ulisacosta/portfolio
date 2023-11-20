@@ -1,5 +1,5 @@
-import { dataNavbar, dataNavbarSM } from "./Navbar.data";
 import { React } from "react";
+import { dataNavbar, dataNavbarSM } from "./Navbar.data";
 import { Link, useLocation } from "react-router-dom";
 import { motion } from "framer-motion"
 
