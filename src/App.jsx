@@ -5,7 +5,6 @@ import Projects from "./components/projects/Projects"
 import Home from "./components/home/Home"
 import About from "./components/about/About"
 import Navbar from "./components/navbar/Navbar"
-import Background from "./components/background/background";
 
 
 
@@ -16,7 +15,7 @@ function App() {
   <Navbar></Navbar>
     </div>
     
-   {/*  <Background> */}
+
   
         <Routes>
           <Route  path="/" element={<Home/>} />
@@ -25,7 +24,6 @@ function App() {
           <Route  path="/projects" element={<Projects   />} />
         </Routes>
 
-  {/*   </Background> */}
     </>
   );
 }
