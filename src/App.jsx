@@ -4,16 +4,16 @@ import "./App.css";
 import Projects from "./components/projects/Projects"
 import Home from "./components/home/Home"
 import About from "./components/about/About"
-/* import Navbar from "./components/navbar/Navbar"
- */
+import Navbar from "./components/navbar/Navba"
+
 
 
 function App() {
   return (
     <>
-  {/*   <div  className="flex justify-center items-center">
+    <div  className="flex justify-center items-center">
   <Navbar></Navbar>
-    </div> */}
+    </div>
         <Routes>
           <Route  path="/" element={<Home/>} />
           <Route  path="/home" element={<Home/>} />
