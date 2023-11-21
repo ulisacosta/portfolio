@@ -4,22 +4,23 @@ import "./App.css";
 import Projects from "./components/projects/Projects"
 import Home from "./components/home/Home"
 import About from "./components/about/About"
+import Navbar from "./components/navbar/Navbar"
 
 
 
 function App() {
   return (
     <>
-
-      <BrowserRouter>
+    <div  className="flex justify-center items-center">
+  <Navbar></Navbar>
+    </div>
         <Routes>
-          <Route exact path="/" element={<Home/>} />
-          <Route exact path="/home" element={<Home/>} />
-        
-          <Route exact path="/about" element={<About  />} />
-          <Route exact path="/projects" element={<Projects   />} />
+          <Route  path="/" element={<Home/>} />
+          <Route  path="/home" element={<Home/>} />
+          <Route  path="/about" element={<About  />} />
+          <Route  path="/projects" element={<Projects   />} />
         </Routes>
-      </BrowserRouter>
+
     </>
   );
 }
