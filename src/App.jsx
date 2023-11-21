@@ -4,7 +4,7 @@ import "./App.css";
 import Projects from "./components/projects/Projects"
 import Home from "./components/home/Home"
 import About from "./components/about/About"
-import Navbar from "./components/navbar/Navba"
+import Navba from "./components/navbar/Navba"
 
 
 
@@ -12,7 +12,7 @@ function App() {
   return (
     <>
     <div  className="flex justify-center items-center">
-  <Navbar></Navbar>
+  <Navba></Navba>
     </div>
         <Routes>
           <Route  path="/" element={<Home/>} />

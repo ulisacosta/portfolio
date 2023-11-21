@@ -1,9 +1,9 @@
-import { React } from "react";
+/* import { React } from "react"; */
 /* import { dataNavbar, dataNavbarSM } from "./Navbar.data" */;
 import { Link } from "react-router-dom";
 /* import { motion } from "framer-motion";  */
 
-export default function Navbar() {
+export default function Navba() {
   /*  let location = useLocation(); */
   return (
     <div className="flex flex-row justify-around items-center w-full  md:fixed md:z-20 md:flex md:flex-col md:items-center md:justify-between md:mt-auto md:h-2/5 md:top-1/4 md:left-10 md:w-16 border-2 border-white rounded-xl  xl:left-auto xl:w-3/6 xl:mt-8 xl:h-16 xl:fixed xl:top-0 xl:z-20 xl:flex xl:flex-row xl:items-center mt-3 mb-3">
