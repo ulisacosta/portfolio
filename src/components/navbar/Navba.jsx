@@ -38,5 +38,5 @@ export default function Navba() {
         ))} */}
       </div>
     </div>
-  );
+  )
 }
