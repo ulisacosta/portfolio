@@ -2,6 +2,11 @@ import { React } from "react";
 import { dataNavbar, dataNavbarSM } from "./Navbar.data";
 import { Link,useLocation } from "react-router-dom";
 import { motion } from "framer-motion"; 
+import { helix } from 'ldrs'
+
+helix.register()
+
+
 
 export default function Navbar() {
    let location = useLocation();
@@ -27,8 +32,20 @@ export default function Navbar() {
       </div>
 
       <div className="hidden xl:w-full xl:flex xl:justify-center xl:gap-1 text-white ">
+   
+
+<l-helix
+  size="45"
+  speed="7" 
+  color="#00AAFF" 
+></l-helix>
         <p className="text-2xl font-semibold ">Acosta</p>
         <p className="text-2xl font-semibold ">Ulises</p>
+        <l-helix
+  size="45"
+  speed="7" 
+  color="#00AAFF" 
+></l-helix>
       </div>
       <div className="flex justify-end gap-3 md:flex md:flex-col md:justify-center md:gap-3 md:mb-3 xl:mb-0 xl:w-full xl:flex xl:flex-row xl:justify-end xl:gap-4 xl:mr-2">
         {dataNavbarSM.map(({ name, link, icon }) => (
