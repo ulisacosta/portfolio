@@ -11,10 +11,10 @@ helix.register()
 export default function Navbar() {
    let location = useLocation();
   return (
-    <nav className="flex flex-row justify-around items-center w-full  md:fixed md:z-20 md:flex md:flex-col md:items-center md:justify-between md:mt-auto md:h-2/5 md:top-1/4 md:left-10 md:w-16 border-2 border-white rounded-xl  xl:left-auto xl:w-3/6 xl:mt-8 xl:h-16 xl:fixed xl:top-0 xl:z-20 xl:flex xl:flex-row xl:items-center mt-3 mb-3">
-     <div className="flex justify-start gap-3 md:flex md:flex-col md:justify-start md:gap-3 md:mt-3 xl:mt-0 xl:w-full xl:flex xl:flex-row xl:justify-start xl:gap-4 xl:ml-2">
-        {dataNavbar.map(({ name, path, icon }) => (
-          <motion.div whileTap={{ scale: 0.8 }} >
+    <nav className=" flex flex-row justify-around items-center relative w-full  md:fixed md:z-20 md:flex md:flex-col md:items-center md:justify-between md:mt-auto md:h-2/5 md:top-1/4 md:left-10 md:w-16 border-2 border-white rounded-xl  xl:left-auto xl:w-3/6 xl:mt-8 xl:h-16 xl:relative xl:top-0 xl:z-20 xl:flex xl:flex-row xl:items-center mt-3 mb-3">
+     <div className="flex justify-start gap-3 relative md:flex md:flex-col md:justify-start md:gap-3 md:mt-3 xl:mt-0 xl:w-full xl:flex xl:flex-row xl:justify-start xl:gap-4 xl:ml-2">
+        {dataNavbar.map(({ id,name, path, icon }) => (
+          <motion.div key={id} whileTap={{ scale: 0.8 }} >
             <Link
               to={path}
               className={`${location.pathname == path && 'currentIconPage'} group transition-all duration-300`} 
@@ -48,8 +48,8 @@ export default function Navbar() {
 ></l-helix>
       </div>
       <div className="flex justify-end gap-3 md:flex md:flex-col md:justify-center md:gap-3 md:mb-3 xl:mb-0 xl:w-full xl:flex xl:flex-row xl:justify-end xl:gap-4 xl:mr-2">
-        {dataNavbarSM.map(({ name, link, icon }) => (
-          <a href={link} target="__blank">
+        {dataNavbarSM.map(({id, name, link, icon }) => (
+          <a key={id} href={link} target="__blank">
             {icon}
           </a>
         ))}

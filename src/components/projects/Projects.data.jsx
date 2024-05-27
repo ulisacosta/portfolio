@@ -10,21 +10,27 @@ export const CardProjects = [{
     skills:[
      
         {
+            id:"1",
             icon: <SiHtml5  size={40} color="white"/>
         },
         {
+            id:"2",
             icon:<SiCss3 size={40} color="white"/>
         },
         {
+            id:"3",
             icon: <SiBootstrap size={40} color="white"/>
         },
         {
+            id:"4",
             icon: <SiJavascript  size={40} color="white"/>
         },
         {
+            id:"5",
             icon: <SiExpress  size={40} color="white"/>
         },
         {
+            id:"6",
             icon: <SiMysql  size={40} color="white"/>
         }
     ],
@@ -38,12 +44,14 @@ export const CardProjects = [{
     skills:[
       
         {
+            id:"1",
             icon: <SiHtml5 size={40} color="white"/>
         },
         {
+            id:"2",
             icon: <SiCss3 size={40} color="white"/>
         },
-        {
+        {id:"3",
             icon: <SiJavascript size={40} color="white"/>
         },
      
@@ -59,19 +67,159 @@ export const CardProjects = [{
     skills:[
       
         {
+            id:"1",
             icon: <SiHtml5 size={40} color="white"/>
         },
         {
+            id:"2",
             icon: <SiCss3 size={40} color="white"/>
         },
         {
+            id:"3",
             icon: <SiJavascript size={40} color="white"/>
         },
         {
+            id:"4",
             icon: <SiExpress  size={40} color="white"/>
         },
         
     ],
     link:'https://draganddropau.onrender.com/'
 },
+{
+    id:2,
+    title:'Drag and drop',
+    description:'Aplicación para practicar la carga de imágenes',
+    imageUrl:'https://res.cloudinary.com/dphsynf6f/image/upload/v1691765190/portfolio/imgDragAndDrop/index.png',
+    skills:[
+      
+        {
+            id:"1",
+            icon: <SiHtml5 size={40} color="white"/>
+        },
+        {
+            id:"2",
+            icon: <SiCss3 size={40} color="white"/>
+        },
+        {
+            id:"3",
+            icon: <SiJavascript size={40} color="white"/>
+        },
+        {
+            id:"4",
+            icon: <SiExpress  size={40} color="white"/>
+        },
+        
+    ],
+    link:'https://draganddropau.onrender.com/'
+},
+{
+    id:2,
+    title:'Drag and drop',
+    description:'Aplicación para practicar la carga de imágenes',
+    imageUrl:'https://res.cloudinary.com/dphsynf6f/image/upload/v1691765190/portfolio/imgDragAndDrop/index.png',
+    skills:[
+      
+        {
+            id:"1",
+            icon: <SiHtml5 size={40} color="white"/>
+        },
+        {
+            id:"2",
+            icon: <SiCss3 size={40} color="white"/>
+        },
+        {
+            id:"3",
+            icon: <SiJavascript size={40} color="white"/>
+        },
+        {
+            id:"4",
+            icon: <SiExpress  size={40} color="white"/>
+        },
+        
+    ],
+    link:'https://draganddropau.onrender.com/'
+},
+{
+    id:2,
+    title:'Drag and drop',
+    description:'Aplicación para practicar la carga de imágenes',
+    imageUrl:'https://res.cloudinary.com/dphsynf6f/image/upload/v1691765190/portfolio/imgDragAndDrop/index.png',
+    skills:[
+      
+        {
+            id:"1",
+            icon: <SiHtml5 size={40} color="white"/>
+        },
+        {
+            id:"2",
+            icon: <SiCss3 size={40} color="white"/>
+        },
+        {
+            id:"3",
+            icon: <SiJavascript size={40} color="white"/>
+        },
+        {
+            id:"4",
+            icon: <SiExpress  size={40} color="white"/>
+        },
+        
+    ],
+    link:'https://draganddropau.onrender.com/'
+},
+{
+    id:2,
+    title:'Drag and drop',
+    description:'Aplicación para practicar la carga de imágenes',
+    imageUrl:'https://res.cloudinary.com/dphsynf6f/image/upload/v1691765190/portfolio/imgDragAndDrop/index.png',
+    skills:[
+      
+        {
+            id:"1",
+            icon: <SiHtml5 size={40} color="white"/>
+        },
+        {
+            id:"2",
+            icon: <SiCss3 size={40} color="white"/>
+        },
+        {
+            id:"3",
+            icon: <SiJavascript size={40} color="white"/>
+        },
+        {
+            id:"4",
+            icon: <SiExpress  size={40} color="white"/>
+        },
+        
+    ],
+    link:'https://draganddropau.onrender.com/'
+},
+{
+    id:2,
+    title:'Drag and drop',
+    description:'Aplicación para practicar la carga de imágenes',
+    imageUrl:'https://res.cloudinary.com/dphsynf6f/image/upload/v1691765190/portfolio/imgDragAndDrop/index.png',
+    skills:[
+      
+        {
+            id:"1",
+            icon: <SiHtml5 size={40} color="white"/>
+        },
+        {
+            id:"2",
+            icon: <SiCss3 size={40} color="white"/>
+        },
+        {
+            id:"3",
+            icon: <SiJavascript size={40} color="white"/>
+        },
+        {
+            id:"4",
+            icon: <SiExpress  size={40} color="white"/>
+        },
+        
+    ],
+    link:'https://draganddropau.onrender.com/'
+},
+
 ]

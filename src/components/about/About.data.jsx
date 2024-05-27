@@ -13,17 +13,17 @@ export const AboutSkills = [
         icon:<SiCss3 size={60} color="#2465f1"/>
     },
     {
-        id:3,
+        id:2,
         skill:'JavaScript',
         icon:<SiJavascript size={60} color="yellow"/>
     },
     {
-        id:4,
+        id:3,
         skill:'Express',
         icon:<SiExpress size={60} color="white"/>
     },
     {
-        id:5,
+        id:4,
         skill:'Tailwind',
         icon:<SiTailwindcss size={60} color="white"/>
     },

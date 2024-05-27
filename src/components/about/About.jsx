@@ -6,7 +6,7 @@ export default function About() {
   return (
     <div className=" xl:max-h-screen">
 
-      <div className='flex justify-center items-center flex-col gap-5 mb-4'>
+      <div className='flex justify-center items-center flex-col gap-5 mb-4 '>
       <div className="">
         <h1 className=" text-white fontProject">Sobre <span  className="text-blue-600">mí</span></h1>
       </div>
@@ -32,7 +32,7 @@ export default function About() {
       <p className="text-white m-0 text-2xl fontSkills">TECH SKILLS</p>
       <div className="grid grid-cols-3 grid-rows-2 gap-8">
         {AboutSkills.map(({id,skills,icon})=>(
-          <div className=" grid justify-center items-center">
+          <div key={id} className=" grid justify-center items-center">
           {icon}
           </div>
         ))}
