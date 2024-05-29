@@ -20,7 +20,7 @@ export default function Navbar() {
               className={`${location.pathname == path && 'currentIconPage'} group transition-all duration-300`} 
             >
               <div className="absolute top-0 hidden mt-16 rounded-sm md:group-hover:flex md:group-hover:items-center">
-                <div className="relative flex items-center p-2 leading-none text-black capitalize bg-white rounded-sm">
+                <div className="fixed flex items-center p-2 leading-none text-black capitalize bg-white rounded-sm">
                   {name}
                 </div>
                 <div className="absolute border-r-8 border-l-0 border-solid border-r-white border-x-transparent border-x-4 -top-2" />

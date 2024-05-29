@@ -5,8 +5,8 @@ import { motion } from "framer-motion";
 
 export default function Projects() {
   return (
-    <div className=' '>
-      <div className='flex justify-center items-center flex-col gap-5 '>
+    <div className=''>
+      <div className=' flex justify-center items-center flex-col gap-5 '>
         <div className=''>
           <h1 className='text-white fontProject'>
             Mis <span className='text-blue-600'>proyectos</span>
