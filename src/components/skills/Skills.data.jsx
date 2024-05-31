@@ -1,8 +1,8 @@
 import React from 'react'
-import { SiCss3, SiExpress, SiHtml5, SiJavascript, SiMysql, SiReact, SiTailwindcss } from 'react-icons/si'
+import { SiCss3, SiDocker, SiExpress, SiHtml5, SiJavascript, SiMysql, SiReact, SiTailwindcss } from 'react-icons/si'
 import { GrMysql } from "react-icons/gr";
 const iconSize = 55;
-export const AboutSkills = [
+export const SkillsData = [
     {
         id:0,
         skill:'HTML',
@@ -38,6 +38,11 @@ export const AboutSkills = [
         id:6,
         skill:'React',
         icon:<SiReact size={iconSize} color="#087EA4" />
+    },
+    {
+        id:7,
+        skill:'Docker',
+        icon:<SiDocker size={iconSize} color="#087EA4" />
     },
 ]
 
