@@ -1,10 +1,9 @@
 import React, { useEffect } from "react";
 
-import { CardProjects } from "./Projects.data";
 import { motion } from "framer-motion";
 import AOS from "aos";
 import "aos/dist/aos.css";
-export default function Projects() {
+export default function Projects(props) {
   useEffect(() => {
     AOS.init();
   }, []);
@@ -13,12 +12,12 @@ export default function Projects() {
       <div className=' flex justify-center items-center flex-col gap-5 mt-16'>
         <div className=''>
           <h1 className='text-white fontProject'>
-            Mis <span className='text-blue-600'>proyectos</span>
+            {props.title} <span className='text-blue-600'>proyectos</span>
           </h1>
         </div>
 
         <section className=' mb-4  flex flex-col gap-8 xl:grid xl:grid-cols-3 xl:place-items-center xl:gap-8 xl:row-auto '>
-          {CardProjects.map(
+          {props.projects.map(
             ({ id, title, imageUrl, description, skills, link }) => (
               <motion.a
                 key={id}

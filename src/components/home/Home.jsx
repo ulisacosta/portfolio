@@ -6,6 +6,7 @@ import About from "../about/About";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import ProjectsHome from "../projects/ProjectsHome";
+import Presentation from "./Presentation";
 
 export default function Home() {
   useEffect(() => {
@@ -13,32 +14,14 @@ export default function Home() {
   }, []);
   return (
     <>
-      <section className=' flex flex-col justify-center items-center py-4 px-6  xl:items-center xl:flex-row '>
-        <div className='text-left flex flex-col gap-6 '>
-          <div className=''>
-            <h1 className='flex flex-col text-white fontProject1 xl:text-8xl md:text-8xl'>
-              Mi nombre es
-              <span className=''>Ulises</span>
-            </h1>
-          </div>
+    <div
+      data-aos="zoom-in"
+        data-aos-easing='linear'
+        data-aos-duration='1500'
+      >
 
-          <div>
-            <h1 className='flex flex-col text-white fontProject text-4xl '>
-              Y mi objetivo es transformar las ideas en
-              <span className='text-[#ad6dec]  text-6xl'>
-                soluciones digitales
-              </span>
-            </h1>
-          </div>
-        </div>
-        <div className=''>
-          <img
-            src={"./src/assets/background/bg.png"}
-            className=''
-            id='img'
-          />
-        </div>
-      </section>
+      <Presentation></Presentation>
+      </div>
 
       <div
         data-aos='fade-down'
