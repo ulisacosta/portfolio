@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from "react";
 
 import { Link } from "react-router-dom";
 import About from "../about/About";
-import Skills from "../skills/Skills";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 export default function Home() {
@@ -28,8 +28,6 @@ export default function Home() {
               </span>
             </h1>
           </div>
-
-      
         </div>
         <div className=''>
           <img
@@ -40,28 +38,28 @@ export default function Home() {
         </div>
       </section>
 
-      <div data-aos='fade-up'>
-      <div>
-
+      <div data-aos="fade-down"
+     data-aos-easing="linear"
+     data-aos-duration="1500"
+     className="">
         <About></About>
-        <Skills></Skills>
       </div>
 
-        <div className='flex flex-col justify-center items-center  gap-6 xl:flex-row xl:gap-4 '>
-          <Link
-            to='/projects'
-            className='px-6 py-3 w-64 h-48 transition-all border-2 cursor-pointer text-white  rounded-xl hover:shadow-xl hover:shadow-blue-400 flex justify-center items-center'
-          >
-            <span className='text-2xl'>Mis proyectos</span>
-          </Link>
-          <a
-            href='https://www.linkedin.com/in/adolfo-ulises-martin-acosta/'
-            target='__blank'
-            className='px-6 py-3 w-64 h-48 transition-all border-2 cursor-pointer  text-white rounded-xl hover:shadow-xl hover:shadow-blue-400 flex justify-center items-center'
-          >
-            <span className='text-2xl'>Contacta conmigo</span>
-          </a>
-        </div>
+
+      <div className='flex flex-col justify-center items-center  gap-6 xl:flex-row xl:gap-4 '>
+        <Link
+          to='/projects'
+          className='px-6 py-3 w-64 h-48 transition-all border-2 cursor-pointer text-white  rounded-xl hover:shadow-xl hover:shadow-blue-400 flex justify-center items-center'
+        >
+          <span className='text-2xl'>Mis proyectos</span>
+        </Link>
+        <a
+          href='https://www.linkedin.com/in/adolfo-ulises-martin-acosta/'
+          target='__blank'
+          className='px-6 py-3 w-64 h-48 transition-all border-2 cursor-pointer  text-white rounded-xl hover:shadow-xl hover:shadow-blue-400 flex justify-center items-center'
+        >
+          <span className='text-2xl'>Contacta conmigo</span>
+        </a>
       </div>
     </>
   );
