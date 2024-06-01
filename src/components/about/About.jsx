@@ -3,7 +3,7 @@ import Skills from "../skills/Skills";
 
 export default function About() {
   return (
-    <div className='flex flex-col items-center h-screen py-16'>
+    <div className='flex flex-col items-center py-16 '>
       <div className='flex flex-col items-center gap-5 '>
         <div className='w-3/4  md:w-9/12 md:text-left text-white text-2xl xl:text-4xl font-semibold fontProject '>
           <p className=''>

@@ -4,7 +4,7 @@ import { SkillsData } from "./Skills.data";
 export default function Skills() {
   return (
     <section className='w-3/4 py-20'>
-      <div className=' flex flex-col gap-3 '>
+      <div className=' flex flex-col  gap-3 '>
         <div className=''>
           <p className=' text-white text-4xl fontSkills'>TECH SKILLS</p>
         </div>
@@ -13,9 +13,9 @@ export default function Skills() {
             {SkillsData.map(({ id, skill, icon }) => (
               <div
                 key={id}
-                className=' grid justify-start rounded-tl-none rounded-bl-none rounded-2xl p-2 '
+                className=' grid justify-start  rounded-tl-none rounded-bl-none rounded-2xl p-2 w-full'
               >
-                <div className='flex justify-center items-center gap-3'>
+                <div className='flex justify-center flex-wrap items-center gap-3'>
                   {icon}
                   <span className='font-semibold text-xl'>{skill}</span>
                 </div>

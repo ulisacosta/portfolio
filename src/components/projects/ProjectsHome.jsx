@@ -1,24 +1,22 @@
-import React, { useEffect } from "react";
-
-import { CardProjects } from "./Projects.data";
+import React from "react";
+import { Link } from "react-router-dom";
+import { CardProjects } from "../projects/Projects.data";
 import { motion } from "framer-motion";
-import AOS from "aos";
-import "aos/dist/aos.css";
-export default function Projects() {
-  useEffect(() => {
-    AOS.init();
-  }, []);
-  return (
-    <div className=''>
-      <div className=' flex justify-center items-center flex-col gap-5 mt-16'>
+
+export default function ProjectsHome() {
+    const limitedItem = CardProjects.slice(0,3)
+
+    return (
+    <div className='flex flex-col justify-center items-center  xl:flex-col xl:gap-12  '>
+      <div className=' flex justify-center items-center flex-col gap-14'>
         <div className=''>
           <h1 className='text-white fontProject'>
-            Mis <span className='text-blue-600'>proyectos</span>
+            Algunos de mis <span className='text-blue-600'>proyectos</span>
           </h1>
         </div>
 
         <section className=' mb-4  flex flex-col gap-8 xl:grid xl:grid-cols-3 xl:place-items-center xl:gap-8 xl:row-auto '>
-          {CardProjects.map(
+          {limitedItem.map(
             ({ id, title, imageUrl, description, skills, link }) => (
               <motion.a
                 key={id}
@@ -30,16 +28,11 @@ export default function Projects() {
                 href={link}
                 target='__blank'
               >
-                <div
-                  data-aos='flip-left'
-                  data-aos-easing='ease-out-cubic'
-                  data-aos-duration='2000'
-                  className='w-80 border-2 rounded-2xl bg-[#1a244b]'
-                >
+                <div className='w-80 border-2 rounded-2xl bg-[#1a244b]'>
                   <div className=''>
                     <img
                       src={imageUrl}
-                      className=' rounded-t-xl h-40 w-full'
+                      className='rounded-t-xl h-40 w-full'
                     ></img>
                   </div>
 
@@ -65,6 +58,22 @@ export default function Projects() {
             )
           )}
         </section>
+      </div>
+
+      <div className='flex flex-col xl:flex-row md:flex-col gap-8 py-8'>
+        <Link
+          to='/projects'
+          className='px-6 py-3 w-80 h-20 transition-all border-2 cursor-pointer text-white  rounded-xl hover:shadow-xl hover:shadow-blue-400 flex justify-center items-center'
+        >
+          <span className='text-2xl'>Ver mas proyectos</span>
+        </Link>
+        <a
+          href='https://www.linkedin.com/in/adolfo-ulises-martin-acosta/'
+          target='__blank'
+          className='px-6 py-3 w-80 h-20 transition-all border-2 cursor-pointer  text-white rounded-xl hover:shadow-xl hover:shadow-blue-400 flex justify-center items-center'
+        >
+          <span className='text-2xl'>Contacta conmigo</span>
+        </a>
       </div>
     </div>
   );
