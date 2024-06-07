@@ -18,9 +18,10 @@ El objetivo principal de este portafolio es proporcionar una visión clara y det
 
 Si tenes alguna pregunta, comentario o deseas discutir una posible colaboración, no dudes en contactarme:
 
-- **Email:** [ulisacosta@gmail.com](mailto:ulisacosta@gmail.com)
-- **LinkedIn:** [www.linkedin.com/in/adolfo-ulises-martin-acosta](www.linkedin.com/in/adolfo-ulises-martin-acosta)
+<a href="mailto:ulisacosta@gmail.com" target="_blank">![Email](https://img.icons8.com/?size=60&id=nQ4dZIRCI0nW&format=png&color=000000)</a>
+<a href="https://www.linkedin.com/in/adolfo-ulises-martin-acosta" target="_blank">![LinkedIn](https://img.icons8.com/?size=60&id=xuvGCOXi8Wyg&format=png&color=000000)</a>
 
-# **[VISITAR MI PORTFOLIO](https://portfolioreactau.netlify.app/)**
+
+# **<a href="https://portfolioreactau.netlify.app/" target="_blank">VISITAR MI PORTFOLIO</a>**
 
 ## ¡Gracias por revisar mi portfolio!

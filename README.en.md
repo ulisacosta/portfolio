@@ -1,5 +1,5 @@
 ![Translate](https://img.icons8.com/?size=40&id=KniCOB9YDHbU&format=png&color=000000)
-[![Español](https://img.icons8.com/?size=40&id=Qb3hI60dMM5e&format=png&color=000000)](README.en.md) 
+[![Español](https://img.icons8.com/?size=40&id=Qb3hI60dMM5e&format=png&color=000000)](README.md) 
 
 # My Portfolio
 
@@ -18,9 +18,9 @@ The main objective of this portfolio is to provide a clear and detailed view of 
 
 If you have any questions, comments, or wish to discuss a possible collaboration, do not hesitate to contact me:
 
-- **Email:** [ulisacosta@gmail.com](mailto:ulisacosta@gmail.com)
-- **LinkedIn:** [www.linkedin.com/in/adolfo-ulises-martin-acosta](https://www.linkedin.com/in/adolfo-ulises-martin-acosta)
+<a href="mailto:ulisacosta@gmail.com" target="_blank">![Email](https://img.icons8.com/?size=60&id=nQ4dZIRCI0nW&format=png&color=000000)</a>
+<a href="https://www.linkedin.com/in/adolfo-ulises-martin-acosta" target="_blank">![LinkedIn](https://img.icons8.com/?size=60&id=xuvGCOXi8Wyg&format=png&color=000000)</a>
 
-# **[VISIT MY PORTFOLIO](https://portfolioreactau.netlify.app/)**
+# **<a href="https://portfolioreactau.netlify.app/" target="_blank">VISIT MY PORTFOLIO</a>**
 
 ## Thanks for checking out my portfolio!
