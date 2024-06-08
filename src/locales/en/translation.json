@@ -1,0 +1,32 @@
+{
+  "presentation": "My name is",
+  "goal": "My goal is to transform ideas into",
+  "solution": "Digital solutions",
+  "aboutMe": "I am seeking to gain experience in the professional field and apply my knowledge to continue growing in my career.",
+  "informationGathering": "Information gathering",
+  "requirementsAnalysis": "Requirements analysis",
+  "testing": "Testing",
+  "webDevelopment": "Web development",
+  "documentation": "Documentation",
+  "some": "Some",
+  "my": "My",
+  "projects": "projects",
+
+  "titleProjectInsurance": "Insurance Company",
+  "projectInsurance": "Management of clients, policies, payments, and claims",
+  "titleProjectImgDragAndDrop": "Drag and Drop",
+  "projectImgDragAndDrop": "Application to practice image uploading",
+
+  "titleProjectCosts": "My expenses",
+  "projectCosts": "Application to know what you spend on",
+
+  "titleProjectPokedex": "Pokedex",
+  "projectPokedex": "First app made to learn how APIs work",
+
+  "titleProjectMovies": "Popular movies",
+  "projectMovies": "Using Movie API with React",
+
+
+  "moreProjects": "View more projects",
+  "contactMe": "Contact me"
+}

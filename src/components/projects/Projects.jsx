@@ -3,7 +3,9 @@ import React, { useEffect } from "react";
 import { motion } from "framer-motion";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { useTranslation } from 'react-i18next';
 export default function Projects(props) {
+  const { t } = useTranslation();
   useEffect(() => {
     AOS.init();
   }, []);
@@ -11,8 +13,8 @@ export default function Projects(props) {
     <div className=''>
       <div className=' flex justify-center items-center flex-col gap-5 mt-16'>
         <div className=''>
-          <h1 className='text-white fontProject'>
-            {props.title} <span className='text-blue-600'>proyectos</span>
+          <h1 className='text-white fontProject text-center'>
+            {props.title} <span className='text-blue-600'>{t('projects')}</span>
           </h1>
         </div>
 
@@ -45,12 +47,12 @@ export default function Projects(props) {
                   <div className=' flex flex-col justify-center'>
                     <div className='flex justify-center items-center border-y-2 '>
                       <p className='text-center font-sans text-white text-lg py-1'>
-                        {title}
+                        {t(title)}
                       </p>
                     </div>
 
                     <div className='h-12 '>
-                      <p className='text-center text-white'>{description}</p>
+                      <p className='text-center text-white'>{t(description)}</p>
                     </div>
 
                     <div className='flex justify-center items-center gap-2 h-16 '>

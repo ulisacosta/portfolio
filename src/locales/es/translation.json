@@ -1,0 +1,32 @@
+{
+  "presentation": "Mi nombre es",
+  "goal": "Y mi objetivo es transformar las ideas en",
+  "solution": "Soluciones digitales",
+  "aboutMe": "Busco adquirir experiencia en el campo laboral y aplicar mis conocimientos para seguir creciendo profesionalmente en el área.",
+  "informationGathering": "Relevamiento de información",
+  "requirementsAnalysis": "Análisis de requisitos",
+  "testing": "Tests",
+  "webDevelopment": "Desarrollo web",
+  "documentation": "Documentación",
+  "some":"Algunos",
+  "my":"Mis",
+  "projects":"proyectos",
+  "titleProjectInsurance": "Empresa de seguros",
+  "projectInsurance": "Gestión de clientes, pólizas, pagos y siniestros",
+  
+  "titleProjectImgDragAndDrop": "Drag and Drop",
+  "projectImgDragAndDrop": "Aplicación para practicar la carga de imágenes",
+  
+  "titleProjectCosts": "Mis gastos",
+  "projectCosts": "Aplicación para saber en que gastas",
+  
+  "titleProjectPokedex": "Pokedex",
+  "projectPokedex": "Mi primera app realizada para aprender como funcionan las APIs",
+
+  "titleProjectMovies": "Películas populares",
+  "projectMovies": "Usando API de películas con React",
+
+
+  "moreProjects": "Ver mas proyectos",
+  "contactMe": "Contacta conmigo"
+}

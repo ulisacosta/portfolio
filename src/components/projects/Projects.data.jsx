@@ -1,11 +1,11 @@
 
-import {SiGithub,SiTailwindcss,SiBootstrap,SiCss3,SiHtml5  ,SiMysql   ,SiReact,SiNodedotjs,SiExpress ,SiJavascript   } from "react-icons/si";
-import { FiExternalLink } from "react-icons/fi";
+import {SiTailwindcss,SiBootstrap,SiCss3,SiHtml5  ,SiMysql   ,SiReact,SiExpress ,SiJavascript   } from "react-icons/si";
 
 export const CardProjects = [{
     id:0,
-    title:'Empresa de seguros',
-    description:'Gestión de clientes, pólizas, pagos y siniestros ',
+    title:'titleProjectInsurance',
+    description:'projectInsurance',
+
     imageUrl:'https://res.cloudinary.com/dphsynf6f/image/upload/v1691699825/portfolio/titronic/logintitronic.png',
     skills:[
      
@@ -38,8 +38,8 @@ export const CardProjects = [{
 },
 {
     id:1,
-    title:'Drag and drop',
-    description:'Aplicación para practicar la carga de imágenes',
+    title:'titleProjectImgDragAndDrop',
+    description:'projectImgDragAndDrop',
     imageUrl:'https://res.cloudinary.com/dphsynf6f/image/upload/v1691765190/portfolio/imgDragAndDrop/index.png',
     skills:[
       
@@ -65,8 +65,8 @@ export const CardProjects = [{
 },
 {
     id:2,
-    title:'Mis gastos',
-    description:'Aplicación para saber en que gastas',
+    title:'titleProjectCosts',
+    description:'projectCosts',
     imageUrl:'https://res.cloudinary.com/dphsynf6f/image/upload/c_crop,w_750,h_400,g_auto/v1717258518/portfolio/Captura_k2b2w7.png',
     skills:[
       
@@ -97,8 +97,8 @@ export const CardProjects = [{
 },
 {
     id:3,
-    title:'Pokedex',
-    description:'Primera app realizada para aprender como funcionan las APIs',
+    title:'titleProjectPokedex',
+    description:'projectPokedex',
     imageUrl:'https://res.cloudinary.com/dphsynf6f/image/upload/v1680556410/portfolio/pokedex/lhxdghfwa8qpitmcmcou.png',
     skills:[
       
@@ -121,8 +121,8 @@ export const CardProjects = [{
 
 {
     id:4,
-    title:'Popular movies',
-    description:'Usando API de peliculas con React',
+    title:'titleProjectMovies',
+    description:'projectMovies',
     imageUrl:'https://res.cloudinary.com/dphsynf6f/image/upload/v1717259528/portfolio/Captura_fz2wov.png',
     skills:[
       

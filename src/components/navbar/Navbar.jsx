@@ -3,7 +3,7 @@ import { dataNavbar, dataNavbarSM } from "./Navbar.data";
 import { Link,useLocation } from "react-router-dom";
 import { motion } from "framer-motion"; 
 import { helix } from 'ldrs'
-
+import ToggleLanguage from "../toggleLanguage/ToggleLanguage";
 helix.register()
 
 
@@ -11,8 +11,15 @@ helix.register()
 export default function Navbar() {
    let location = useLocation();
   return (
-    <nav className=" flex flex-row justify-around items-center relative w-full md:w-3/4 sm:w-3/4 border-y-2 border-white xl:left-auto xl:w-3/6 xl:mt-4 xl:h-16 xl:relative xl:top-0 xl:z-20 xl:flex xl:flex-row xl:items-center mt-2 ">
+    <nav className=" flex flex-row justify-around items-center relative w-full md:w-3/4 sm:w-3/4  xl:left-auto xl:w-3/6 xl:mt-4 xl:h-16 xl:relative xl:top-0 xl:z-20 xl:flex xl:flex-row xl:items-center mt-2 ">
+
+
      <div className="flex justify-start gap-3 relative  xl:mt-0 xl:w-full xl:flex xl:flex-row xl:justify-start xl:gap-4 xl:ml-2">
+ 
+<ToggleLanguage></ToggleLanguage>
+
+
+
         {dataNavbar.map(({ id,name, path, icon }) => (
           <motion.div key={id} whileTap={{ scale: 0.8 }} >
             <Link
@@ -29,11 +36,14 @@ export default function Navbar() {
             </Link>
             </motion.div>
         ))}
+       
+     
       </div>
+
 
       <div className="hidden md:flex md:justify-center md:items-center xl:w-full xl:flex xl:justify-center xl:gap-1 text-white ">
    
-
+    
 <l-helix
   size="45"
   speed="7" 
@@ -46,6 +56,7 @@ export default function Navbar() {
   speed="7" 
   color="#00AAFF" 
 ></l-helix>
+
       </div>
       <div className="flex justify-end gap-3 xl:mb-0 xl:w-full xl:flex xl:flex-row xl:justify-end xl:gap-4 xl:mr-2">
         {dataNavbarSM.map(({id, name, link, icon }) => (
@@ -53,6 +64,7 @@ export default function Navbar() {
             {icon}
           </a>
         ))}
+      
       </div>
     </nav>
   )
